@@ -27,34 +27,16 @@ Let's embark on this exciting journey together! If you're as passionate about so
 ---
 
 <div style="text-align: center;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Blue_globe_icon.svg" alt="Globe Icon" width="200" height="200" id="globe-icon">
   <script type="module">
-    import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js';
-
-    // Set up scene, camera, and renderer
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer();
-    renderer.setSize(200, 200); // Set the desired size of the animation
-    document.querySelector('#globe-animation').appendChild(renderer.domElement);
-
-    // Create a globe
-    const geometry = new THREE.SphereGeometry(1, 32, 32);
-    const material = new THREE.MeshBasicMaterial({ color: 0x0077ff, wireframe: true });
-    const globe = new THREE.Mesh(geometry, material);
-    scene.add(globe);
-
-    // Set camera position
-    camera.position.z = 5;
+    const globeIcon = document.getElementById('globe-icon');
 
     // Animation loop
     const animate = () => {
+      globeIcon.style.transform = `rotate(${performance.now() / 10}deg)`;
       requestAnimationFrame(animate);
-      globe.rotation.x += 0.005;
-      globe.rotation.y += 0.005;
-      renderer.render(scene, camera);
     };
 
     animate();
   </script>
-  <div id="globe-animation"></div>
 </div>
