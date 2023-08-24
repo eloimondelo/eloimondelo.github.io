@@ -5,7 +5,7 @@ date:   2023-08-24 07:30:30 +0200
 categories: threejs javascript frontend
 ---
 
-![Three.js Banner](link-to-banner-image.jpg)
+![Three.js Banner](/assets/images/threejs.png)
 
 Unleash the Power of Three.js
 ============================
