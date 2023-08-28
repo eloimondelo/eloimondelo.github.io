@@ -1,0 +1,104 @@
+---
+layout: post
+title:  "SQL Fundamentals: A Guide to CRUD Operations"
+date:   2023-08-28 07:30:30 +0200
+categories: sql databases
+---
+
+## Introduction
+
+Structured Query Language (SQL) is the cornerstone of relational database management systems (RDBMS). As someone who juggles both software development and teaching, it's essential to comprehend the core SQL operations: Create, Read, Update, and Delete (CRUD). Mastering these operations will give you the ability to manipulate and query data in a variety of ways, forming the backbone of many software applications. 
+
+---
+
+## CREATE
+
+Creating a new table involves defining its structure, which includes specifying the columns and their data types.
+
+### Syntax
+
+```sql
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+    ...
+);
+```
+
+### Example
+
+```sql
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    age INT
+);
+```
+
+---
+
+## SELECT
+
+The `SELECT` statement is used to read or retrieve data from a table. It's the "R" in CRUD.
+
+### Syntax
+
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+
+### Example
+
+```sql
+SELECT first_name, last_name FROM employees WHERE age > 30;
+```
+
+---
+
+## UPDATE
+
+The `UPDATE` statement modifies existing records in a table. It's the "U" in CRUD.
+
+### Syntax
+
+```sql
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+```
+
+### Example
+
+```sql
+UPDATE employees SET age = 31 WHERE id = 1;
+```
+
+---
+
+## DELETE
+
+The `DELETE` statement removes records from a table. It's the "D" in CRUD.
+
+### Syntax
+
+```sql
+DELETE FROM table_name WHERE condition;
+```
+
+### Example
+
+```sql
+DELETE FROM employees WHERE age < 25;
+```
+
+---
+
+## Conclusion
+
+Understanding the CRUD operations—`CREATE`, `SELECT`, `UPDATE`, and `DELETE`—is crucial for anyone looking to master SQL. They form the building blocks of any data manipulation in a relational database and are used in various combinations to achieve more complex operations.
+
+These operations are the basic commands you must understand to be effective with databases. These operations serve as the foundation on which more advanced features like joins, indexing, and transactions are built.
