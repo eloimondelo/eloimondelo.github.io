@@ -2,8 +2,10 @@
 layout: post
 title:  "SQL Fundamentals: A Guide to CRUD Operations"
 date:   2023-08-28 07:30:30 +0200
-categories: sql databases
+categories: sql databases crud
 ---
+
+![SQL Banner](/assets/images/sql.png)
 
 ## Introduction
 
