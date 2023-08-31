@@ -5,8 +5,6 @@ date:   2023-08-31 08:30:30 +0200
 categories: sql databases crud
 ---
 
-![Joins Banner](/assets/images/sql.png)
-
 # SQL Advanced Features: Understanding Joins, Indexing, and Transactions
 
 ## Introduction
