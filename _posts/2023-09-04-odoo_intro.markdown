@@ -5,8 +5,6 @@ date:   2023-09-04 07:30:30 +0200
 categories: odoo erp frontend
 ---
 
-# Introduction to Odoo (Formerly Open ERP)
-
 ## What is Odoo?
 
 Odoo is a comprehensive suite of business applications that includes CRM, Sales, Project Management, Warehouse Management, Manufacturing, Financial Management, and Human Resources, just to name a few. It's a one-stop solution for all kinds of business needs.

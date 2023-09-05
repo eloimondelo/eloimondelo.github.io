@@ -5,10 +5,6 @@ date:   2023-08-31 08:30:30 +0200
 categories: sql databases crud
 ---
 
-# SQL Advanced Features: Understanding Joins, Indexing, and Transactions
-
-## Introduction
-
 In the last article we explored the basics of SQL, focusing on CRUD operations. Now that you have a good grasp on those, let's dive into some advanced SQL features that will expand your capabilities in database manipulation. These include joins, indexing, and transactions.
 
 ---

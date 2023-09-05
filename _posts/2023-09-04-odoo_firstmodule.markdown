@@ -5,8 +5,6 @@ date:   2023-09-04 07:30:30 +0200
 categories: odoo erp frontend
 ---
 
-# Creating an Odoo module
-
 Below is a simple example for creating a new Odoo module. This is a basic "To-Do" list module. The module has just one model `Todo.Task` with a name and a description.
 
 1. Create a new directory named `todo_app` in your Odoo addons folder.
