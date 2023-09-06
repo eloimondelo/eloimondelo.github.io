@@ -44,3 +44,12 @@ Creating a custom module in Odoo involves the following general steps:
 ## Conclusion
 
 Odoo offers an extensive set of features and customizable options that make it a suitable choice for businesses of all sizes. The modular architecture and scalability make it a long-lasting solution that can grow with your business.
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LP19XK152R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LP19XK152R');
+</script>
