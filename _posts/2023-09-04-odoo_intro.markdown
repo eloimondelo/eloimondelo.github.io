@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Introduction to Odoo (Formerly Open ERP)"
 date:   2023-09-04 07:30:30 +0200
 categories: odoo erp frontend
