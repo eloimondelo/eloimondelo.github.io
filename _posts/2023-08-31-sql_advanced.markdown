@@ -119,3 +119,12 @@ The advanced SQL features of joins, indexing, and transactions are critical for 
 By learning these features, you'll not only improve your efficiency when working with databases but also gain the knowledge to teach and guide others on these essential SQL features.
 
 Happy querying!
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LP19XK152R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LP19XK152R');
+</script>

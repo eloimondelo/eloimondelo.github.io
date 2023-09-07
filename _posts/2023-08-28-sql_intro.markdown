@@ -100,3 +100,11 @@ DELETE FROM employees WHERE age < 25;
 Understanding the CRUD operations—`CREATE`, `SELECT`, `UPDATE`, and `DELETE`—is crucial for anyone looking to master SQL. They form the building blocks of any data manipulation in a relational database and are used in various combinations to achieve more complex operations.
 
 These operations are the basic commands you must understand to be effective with databases. These operations serve as the foundation on which more advanced features like joins, indexing, and transactions are built.
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LP19XK152R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LP19XK152R');
+</script>

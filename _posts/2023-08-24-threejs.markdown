@@ -76,3 +76,12 @@ animate();
 Embark on Your Three.js Journey
 ============================
 So, if you're yearning to infuse an extra dimension into your frontend projects and you're already at home with JavaScript, prepare to plunge into the exhilarating world of Three.js. It's an invitation to reimagine web development and elevate it to astonishing heights.
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LP19XK152R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LP19XK152R');
+</script>

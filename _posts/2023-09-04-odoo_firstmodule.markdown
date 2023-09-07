@@ -93,3 +93,12 @@ from . import todo_model
 ```
 
 Once you've set up these files, update the module list in Odoo and install your new module. You'll see a new menu item "To-Do Tasks" where you can add and manage tasks.
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LP19XK152R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-LP19XK152R');
+</script>
